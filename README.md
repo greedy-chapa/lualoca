@@ -9,4 +9,4 @@ Localize your game/app on Lua using this module with convenient localization jso
 It's recommended to use [semneko lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) to read the module annotations
 
 ## Docs
-You can read module docs in [docs.md file](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md)
+You can read module docs in [docs/main.md file](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/main.md)
