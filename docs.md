@@ -8,15 +8,22 @@
 ## lualoca.source
 Table containing encoded text strings or another `lualoca.source`\
 {\
-	\[string]: string|self\
+	\[string]: string|lualoca.source\
 	\[integer]: string\
 }
 
 ## lualoca.group
 Table containing decoded text strings or another `lualoca.group`\
 {\
-	\[string]: string|self\
+	\[string]: string|lualoca.group\
  	\[integer]: string\
+}
+
+## lualoca.object
+Table containing data needed to get text\
+{\
+	path: string\[]\
+ 	values?: {\[string]: string|number|boolean|lualoca.object|string[]}|string|number|boolean|lualoca.object|string[]\
 }
 
 # Classes
@@ -24,6 +31,7 @@ Table containing decoded text strings or another `lualoca.group`\
 
 
 # Functions
+
 ## decode
 Decodes `source` localization to lualoca.group so you can use it
 ### Params:
@@ -31,6 +39,17 @@ Decodes `source` localization to lualoca.group so you can use it
 2. source: lualoca.source
 ### Returns:
 1. lualoca.group
+
+## Instance
+Creates lualoca.instance
+### Params:
+1. funlutab: [funlutab](https://github.com/Mantyi-Studio/funlutab) - version 2.1.1 - latest 2.x
+2. json: table - [json module](https://github.com/rxi/json.lua) version 0.1.2
+3. path: string - path to folder with json files of localizations
+4. path_to_params: string - path to json file with params for all languages
+5. read?: fun(path: string): string|nil - custom read function
+### Returns:
+1. lualoca.instance
 
 # Constants
 ## VERSION
