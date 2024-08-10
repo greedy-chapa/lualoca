@@ -31,3 +31,28 @@ Loads the game text in `lang`. Returns the `lang` parameters (pivot, font, etc.)
 1. lang: string
 ### Returns:
 1. { \[string]: any }
+
+# Tables
+## data
+Contains all instance data
+
+### funlutab: funlutab
+[Funlutab module](https://github.com/Mantyi-Studio/funlutab)
+
+### json: table
+[JSON module](https://github.com/rxi/json.lua)
+
+### language: string|nil
+Current language
+
+### params: { \[string]: any }
+Params of all languages
+
+### path: string
+Path to folder with json files of localizations
+
+### read: fun(path: string): string | nil
+Read function
+
+### text: { \[string]: [lualoca.group](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/main.md#lualocagroup) }
+Text on specified language
