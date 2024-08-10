@@ -16,7 +16,7 @@ If you try to set a language that has no params, you'll get an error. So if you 
 }
 ```
 
-# Localization files (UNFINISHED)
+# Localization files
 This is a json file for localization text.
 ## Normal text
 You can write unnested text:
