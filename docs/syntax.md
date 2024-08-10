@@ -38,11 +38,9 @@ You can write unnested text:
 {
 	"topics": {
 		"neutral": {
-			...
-				"music": {
-					"track": "What is your favorite track?"
-				}
-			...
+			"music": {
+				"track": "What is your favorite track?"
+			}
 		}
 	}
 }
@@ -74,11 +72,41 @@ To write a multi-line text, you can use lists:
 	}
 }
 ```
-## Params (entries)
-To add a param to text, you should use #<param's id>:
-```json
-...
-"artist": "Favorite artist: #"
-...
+To get text without params use
+```lua
+text = instance:get_text({"group1", "group2", ..., "text"})
 ```
 
+## Params (entries)
+To add a param to text, you should use #<param's name>:
+```json
+"age": "#name: #age"
+```
+It's convient to name params by single letters:
+```json
+"date": "Date: #y/#m/#d"
+```
+To write "#" (hash) use ##:
+```json
+"hashtag": "##lualoca"
+```
+To get a text with params use
+```lua
+text = instance:get_text({path = {"path", "to", "text"}, values = {<param_name> = <value>...}})
+```
+If you write # without a name, param will be saved with an empty name. It's convenient, if the text contains only 1 param:
+```json
+"artist": "Favorite artist: #"
+```
+So i added one more convenient thing:
+`values = value` is the same as `values = {[""] = value}`
+It means instead of this:
+```lua
+text = instance:get_text({path = {..., "artist"}, values = {[""] = "Brooks"}})
+```
+... you can use this:
+```lua
+text = instance:get_text({path = {..., "artist"}, values = "Brooks"})
+```
+I hope my explanation was clear\
+Good luck :-)
