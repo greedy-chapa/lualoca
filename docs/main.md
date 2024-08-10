@@ -4,25 +4,31 @@ Read about it on [syntax.md](https://github.com/Mantyi-Studio/lualoca/blob/main/
 # Types
 
 ## lualoca.source
-Table containing encoded text strings or another `lualoca.source`\
-{\
-	\[string]: string | lualoca.source\
-	\[integer]: string\
+Table containing encoded text strings or another `lualoca.source`
+```
+{
+	[string]: string | lualoca.source
+	[integer]: string
 }
+```
 
 ## lualoca.group
-Table containing decoded text strings or another `lualoca.group`\
-{\
-	\[string]: string | lualoca.group\
- 	\[integer]: string\
+Table containing decoded text strings or another `lualoca.group`
+```
+{
+	[string]: string | lualoca.group
+	[integer]: string
 }
+```
 
 ## lualoca.object
-Table containing data needed to get text\
-{\
-	path: string\[]\
- 	values?: { \[string]: string | number | boolean | lualoca.object | string[] } | string | number | boolean | lualoca.object | string[]\
+Table containing data needed to get text
+```
+{
+	path: string[]
+ 	values?: { [string]: string | number | boolean | lualoca.object | string[] } | string | number | boolean | lualoca.object | string[]
 }
+```
 
 # Classes
 ## [Instance](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/instance.md)
