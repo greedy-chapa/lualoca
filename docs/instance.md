@@ -42,7 +42,7 @@ Contains all instance data
 ### json: table
 [JSON module](https://github.com/rxi/json.lua)
 
-### language: string|nil
+### language: string | nil
 Current language
 
 ### params: { \[string]: any }
