@@ -33,15 +33,15 @@ Table containing data needed to get text\
 # Functions
 
 ## decode
-Decodes `source` localization to lualoca.group so you can use it
+Decodes `source` localization to [lualoca.group](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#lualocagroup) so you can use it
 ### Params:
 1. funlutab: table - [funlutab module](https://github.com/Mantyi-Studio/funlutab)
-2. source: lualoca.source
+2. source: [lualoca.source](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#lualocasource)
 ### Returns:
-1. lualoca.group
+1. [lualoca.group](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#lualocagroup)
 
 ## Instance
-Creates lualoca.instance
+Creates [lualoca.instance](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#instance)
 ### Params:
 1. funlutab: [funlutab](https://github.com/Mantyi-Studio/funlutab) - version 2.1.1 - latest 2.x
 2. json: table - [json module](https://github.com/rxi/json.lua) version 0.1.2
@@ -49,7 +49,7 @@ Creates lualoca.instance
 4. path_to_params: string - path to json file with params for all languages
 5. read?: fun(path: string): string|nil - custom read function
 ### Returns:
-1. lualoca.instance
+1. [lualoca.instance](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#instance)
 
 # Constants
 ## VERSION
