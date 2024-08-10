@@ -1,7 +1,5 @@
-# UNFINISHED
-
 # Syntax
-
+Read about it on [syntax.md](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/syntax.md)
 
 # Types
 
@@ -27,21 +25,21 @@ Table containing data needed to get text\
 }
 
 # Classes
-## Instance
-
+## [Instance](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/instance.md)
+It's needed to load and get text. Every instance can only use 1 language. If you need to use more languages, use more instances.
 
 # Functions
 
 ## decode
-Decodes `source` localization to [lualoca.group](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#lualocagroup) so you can use it
+Decodes `source` localization to [lualoca.group](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/main.md#lualocagroup) so you can use it
 ### Params:
 1. funlutab: table - [funlutab module](https://github.com/Mantyi-Studio/funlutab)
-2. source: [lualoca.source](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#lualocasource)
+2. source: [lualoca.source](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/main.md#lualocasource)
 ### Returns:
-1. [lualoca.group](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#lualocagroup)
+1. [lualoca.group](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/main.md#lualocagroup)
 
 ## Instance
-Creates [lualoca.instance](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#instance)
+Creates [lualoca.instance](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/main.md#instance)
 ### Params:
 1. funlutab: [funlutab](https://github.com/Mantyi-Studio/funlutab) - version 2.1.1 - latest 2.x
 2. json: table - [json module](https://github.com/rxi/json.lua) version 0.1.2
@@ -49,7 +47,7 @@ Creates [lualoca.instance](https://github.com/Mantyi-Studio/lualoca/blob/main/do
 4. path_to_params: string - path to json file with params for all languages
 5. read?: fun(path: string): string|nil - custom read function
 ### Returns:
-1. [lualoca.instance](https://github.com/Mantyi-Studio/lualoca/blob/main/docs.md#instance)
+1. [lualoca.instance](https://github.com/Mantyi-Studio/lualoca/blob/main/docs/main.md#instance)
 
 # Constants
 ## VERSION
