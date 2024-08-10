@@ -1,0 +1,35 @@
+{
+	"hi": "Privet, #!",
+	"name": "Vvedite vashe imya: ",
+	"commands": {
+		"list": [
+			"Komandyi:",
+			"date",
+			"cool_tag",
+			"song",
+			"price",
+			"language",
+			"exit"
+		],
+		"date": "Data: #",
+		"tag": "##eto_ochen'_krutoy_modul'",
+		"song": [
+			"Janji - Geroi Etoy Nochyu (feat. Johnning) [https:/ncs.io/ht]",
+			"Ya gulyayu odin, ulitsyi pustyi",
+			"Edinstvennaya vesch, kotoruyu ya mogu vudet' - eto moy sobstvennyiy siluet",
+			"Ya stanovlyus' silnee, shag za shagom",
+			"Chasyi tikayut, no net vremeni dlya sozhaleniy",
+			"..."
+		],
+		"price": {
+			"product": "Vvedite nazvanie tovara: ",
+			"price": "Vvedite tsenu: ",
+			"currency": "Vvedite zhnak valyutyi: ",
+			"label": "#n: #p#c"
+		},
+		"language": "Vyiberite yazyik ('en' ili 'ru'): "
+	},
+	"command": "Vvedite kommandu: ",
+	"unknown": "Neizvestnaya kommanda",
+	"bye": "Poka, #, ya nadeyus' vam ponravilsya etot modul'!"
+}

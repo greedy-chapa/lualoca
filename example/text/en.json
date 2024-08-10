@@ -1,0 +1,35 @@
+{
+	"hi": "Hi, #!",
+	"name": "Enter your name: ",
+	"commands": {
+		"list": [
+			"Commands:",
+			"date",
+			"tag",
+			"song",
+			"price",
+			"language",
+			"exit"
+		],
+		"date": "Date: #",
+		"tag": "##it's_very_cool_module",
+		"song": [
+			"Janji - Heroes Tonight (feat. Johnning) [https:/ncs.io/ht]",
+			"I'm walkin' alone, the street are empty",
+			"The only think i can see is my own silhouette",
+			"I'm gettin' stronger, step by step",
+			"The clock is tickin' but there's no time for regrets",
+			"..."
+		],
+		"price": {
+			"product": "Enter product name: ",
+			"price": "Enter price: ",
+			"currency": "Enter currency sign: ",
+			"label": "#n: #p#c"
+		},
+		"language": "Select language ('en' or 'ru'): "
+	},
+	"command": "Enter command: ",
+	"unknown": "Unknown command",
+	"bye": "Bye, #, i hope you liked this module!"
+}
