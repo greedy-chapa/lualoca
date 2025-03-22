@@ -24,7 +24,7 @@
 		"price": {
 			"product": "Vvedite nazvanie tovara: ",
 			"price": "Vvedite tsenu: ",
-			"currency": "Vvedite zhnak valyutyi: ",
+			"currency": "Vvedite znak valyutyi: ",
 			"label": "#n: #p#c"
 		},
 		"language": "Vyiberite yazyik ('en' ili 'ru'): "
